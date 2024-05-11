@@ -5,7 +5,6 @@ const noNewVideoText = "Lo sentimos, no ha subido vídeo"
 const sadRabbit = "sad.png"
 
 const checkNewVideo = async () => {
-    console.log('Checking new video...')
     const message = document.getElementById('message')
     const image = document.getElementById('rabbit')
     try {
