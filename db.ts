@@ -1,6 +1,6 @@
 const kv = await Deno.openKv();
 
-export const createRegister = async (key: string, value: boolean, minutesToExpire: number = 5) => {
+export const createRegister = async (key: string, value: boolean, minutesToExpire: number = 8*60) => {
     const expireInMiliSeconds = minutesToExpire * 60 * 1000;
     await kv.set([key], value, {expireIn: expireInMiliSeconds});
 }
