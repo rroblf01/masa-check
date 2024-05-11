@@ -1,0 +1,9 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #939e78;
+    display: flex;
+    font-size: xx-large;
+    flex-direction: column;
+    align-items: center;
+    color: #061013;
+}
